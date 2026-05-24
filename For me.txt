@@ -6,6 +6,7 @@
 
 Исправление кодировки
 \! chcp 1251
+SET client_encoding = 'WIN1251';
 
 Создание таблицы
 \i 'C:/Users/111/Desktop/Repository/HW_8_DB/03_select.sql'
