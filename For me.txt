@@ -1,0 +1,12 @@
+Подключение к базе
+"C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -d practice_db
+
+Переключение на базу practice_db
+\c practice_db
+
+Исправление кодировки
+\! chcp 1251
+SET client_encoding = 'WIN1251';
+
+Создание таблицы
+\i 'C:/Users/111/Desktop/Repository/HW_8_DB/03_select.sql'
